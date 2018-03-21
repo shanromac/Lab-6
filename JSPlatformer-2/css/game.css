@@ -1,0 +1,17 @@
+.background    { background-image: url("https://i.imgur.com/QF7VfCJ.jpg") ;
+                 table-layout: repeat;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: #a22209; }
+.wall          { background: #241411 ;   }
+.floater       { background: #E1E3D5 ; }
+
+.actor  { position: absolute;  }
+.player { background: #E1E9F2; }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
